@@ -14,11 +14,12 @@ var listenClicks = function() {
 var selectSquare = function(event) {
 	if (count === 1) {	
 		this.classList.add("selectedX");
+		this.classList.remove("selectedO");
 		count++;
 	}
 	else if (count === 2) {
-		this.classList.add("selectedO");
-		count = 1;	
+		this.classList.toggle("selectedO");
+		count--;	
 	}
 };
 
