@@ -1,0 +1,171 @@
+body {
+	background-color: rgba(216, 255, 23, 1);
+	background-image: url("../files/pattern1.png");
+}
+
+.head {
+	color: #1755FF;
+	font-family: Comic Sans MS;
+	font-size:4em;
+   	text-shadow: 	2px 2px 0 #6CD35E, 
+    				4px 4px 0 #5E5ED3,
+    				6px 6px 0 #DCFF17,
+    				8px 8px 0 #FF17A6,
+    				10px 10px 0 #FF5117,
+    				12px 12px 0 #17FFFB;
+}
+
+.gameplayarea {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+  	margin-right: auto;
+  	margin-left: auto;
+}
+
+.square {
+	background-color: rgba(23, 255, 240, .8);
+	width: 180px;
+	height: 180px;
+	margin: 10px;
+	font-family: Comic Sans MS;
+	display: inline-block;
+}
+
+.square:hover {
+	background-color: rgba(255, 38, 255, .8);
+}
+
+.selectedX {
+	background-color: rgba(15, 255, 19, 0.8);
+  	background-image: url("x.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedO {
+	background-color: rgba(255, 163, 15, .8);
+  	background-image: url("o.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedX:hover {
+	background-color: rgba(15, 255, 19, 0.8);
+  	background-image: url("x.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedO:hover {
+	background-color: rgba(255, 163, 15, .8);
+  	background-image: url("o.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+.head {
+	color: #1755FF;
+	font-family: Comic Sans MS;
+	font-size: 4em;
+   	text-shadow: 	1px 1px 0 #6CD35E, 
+    				2px 2px 0 #5E5ED3,
+    				3px 3px 0 #DCFF17,
+    				4px 4px 0 #FF17A6,
+    				5px 5px 0 #FF5117,
+    				6px 6px 0 #17FFFB;
+}
+
+.square {
+	background-color: rgba(23, 255, 240, .8);
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	font-family: Comic Sans MS;
+	display: inline-block;
+}
+
+.selectedX {
+	background-color: rgba(15, 255, 19, 0.8);
+  	background-image: url("x_mid.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedO {
+	background-color: rgba(255, 163, 15, .8);
+  	background-image: url("o_mid.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedX:hover {
+	background-color: rgba(15, 255, 19, 0.8);
+  	background-image: url("x_mid.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedO:hover {
+	background-color: rgba(255, 163, 15, .8);
+  	background-image: url("o_mid.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.head {
+	color: #1755FF;
+	font-family: Comic Sans MS;
+	font-size: 3em;
+   	text-shadow: 	1px 1px 0 #6CD35E, 
+    				2px 2px 0 #5E5ED3,
+    				3px 3px 0 #DCFF17,
+}
+
+.square {
+	background-color: rgba(23, 255, 240, .8);
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	font-family: Comic Sans MS;
+	display: inline-block;
+}
+
+.selectedX {
+	background-color: rgba(15, 255, 19, 0.8);
+  	background-image: url("x_small.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedO {
+	background-color: rgba(255, 163, 15, .8);
+  	background-image: url("o_small.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedX:hover {
+	background-color: rgba(15, 255, 19, 0.8);
+  	background-image: url("files/x_small.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+.selectedO:hover {
+	background-color: rgba(255, 163, 15, .8);
+  	background-image: url("o_small.png");
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+}
